@@ -1,6 +1,7 @@
 <h1 class="title-1">Редактировать фильм</h1>
 
 <div class="panel-holder mt-30 mb-100">
+	
 	<form enctype="multipart/form-data" action="edit.php?id=<?=$film['id']?>" method="POST">
 
 		<?php 
